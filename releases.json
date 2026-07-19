@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.7.10",
+    "name": "0.7.10",
+    "published_at": "2026-07-19T18:20:00Z",
+    "body": "# English\n\n## Fixes\n\n- **Data loading restored.** The base game-data file moved to a new location\n  and the app could no longer load it, so blueprint and item data failed to\n  update. Fixed: the app now points at the new location and loads normally\n  again.\n\n---\n\n# Deutsch\n\n## Behoben\n\n- **Datenladen repariert.** Die Basis-Spieldaten-Datei ist umgezogen und die\n  App konnte sie nicht mehr laden, wodurch Bauplan- und Item-Daten nicht mehr\n  aktualisiert wurden. Behoben: die App nutzt jetzt den neuen Ort und lädt\n  wieder normal.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/fa62e8f0000ea1d6514b68840f4e4cee0764a5196f1449decd6d97176cbcf679\n"
+  },
+  {
     "tag_name": "v0.7.9",
     "name": "0.7.9",
     "published_at": "2026-07-02T03:02:34Z",
@@ -112,11 +118,5 @@
     "name": "0.6.5",
     "published_at": "2026-05-28T17:44:41Z",
     "body": "# English\n\n## Fixed\n\n- **Stale base data — fixed.** The app was tracking a frozen MrKraken branch (`ptu/4.8`) instead of his active `master` branch, so the base text could lag behind by days. Now we follow his latest line — your install gets the freshest text on the next \"Update\".\n\n## New\n\n- **Patch-drift safety net.** If a future game patch reworlds the in-game \"Received Blueprint\" notification, the app now shows a warning in the status footer instead of silently dropping unlocks.\n\n---\n\n# Deutsch\n\n## Behoben\n\n- **Veraltete Base-Daten — gefixt.** Die App holte sich eine eingefrorene MrKraken-Branch (`ptu/4.8`) statt seiner aktiven `master`-Branch — die Basis-Texte konnten so Tage hinterherhinken. Jetzt folgen wir seiner aktuellsten Linie — dein Install bekommt die frischesten Texte beim nächsten „Update\".\n\n## Neu\n\n- **Patch-Drift-Sicherheitsnetz.** Sollte ein zukünftiger Spiel-Patch die „Received Blueprint\"-Benachrichtigung umformulieren, zeigt die App jetzt eine Warnung in der Statuszeile, statt Unlocks still zu verschlucken.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/e2f897544295b25a20f14fad2d9f99e8651ee9ed581f9729fbe4c58d9db38f12\n"
-  },
-  {
-    "tag_name": "v0.6.4",
-    "name": "0.6.4",
-    "published_at": "2026-05-28T02:11:32Z",
-    "body": "# English\n\n## New\n\n- **VirusTotal scan link.** Every release now includes a VirusTotal link, so you can check the (unsigned) installer against ~70 antivirus engines — shown in the release notes and the README.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **VirusTotal-Scan-Link.** Jedes Release enthält jetzt einen VirusTotal-Link, mit dem du den (unsignierten) Installer gegen ~70 Antiviren-Engines prüfen kannst — in den Release-Notes und im README.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/9401b3920a42344158079ac2e0072990610b9222aaaa9bca79240ebc8a21a434\n"
   }
 ]
